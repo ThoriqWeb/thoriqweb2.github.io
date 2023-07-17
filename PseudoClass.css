@@ -1,0 +1,62 @@
+    body{
+        background-color: black;
+
+    }
+    li:last-child a{
+        color: cadetblue;
+
+    }
+
+    li:nth-child(3) a{
+        color:aquamarine
+    }
+    li:nth-child(4) a{
+        color:aquamarine
+    }
+
+    li:first-child a{
+        color: chartreuse;
+    }
+
+    li:first-child:hover a{
+        font-size: 20px;
+    }
+
+    h1{
+        font-size:100px;
+        font-weight: 600;
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 150px;
+    }
+
+    .link{
+    width:150px;
+    height: 200px;
+    border:5px solid white;
+    margin-left: 43%;
+    margin-top: 0px;
+    }
+
+    footer{
+        text-align: center;
+        font-family:'Courier New', Courier, monospace;
+        color: white;
+        margin-top: 30px;
+        margin-right: 50px;
+    }
+
+    a {
+        color: white;
+    }
+
+    a:hover{
+        font-size: 20px;
+        color: white;
+    }
+
+    li{
+        color: white;
+        margin-right: 00px;
+    }

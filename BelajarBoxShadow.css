@@ -1,0 +1,44 @@
+    h1{
+        font-size: 50px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        
+
+    }
+
+
+
+    .kotak{
+        height: 300px;
+        width: 300px;
+        margin: 50px auto;
+        background-color: aqua;
+        box-shadow: 0px 0px 10px 20px rgba(0,0,0,0.75);
+  
+        transition: .3s;
+        right: 570px;
+    }
+
+    .kotak:hover{
+        box-shadow: 0px 45px 5px 10px rgba(0,0,0,0.35);
+        margin-top: -20px;
+    }
+
+    .kotak2{
+        height: 300px;
+        width: 300px;
+        background-color: cornflowerblue;
+        margin: 100px auto;
+        box-shadow: -15px -15px 5px rgba(0,255,0,0.5),
+        15px 15px 5px rgba(255,0,0,0.5);
+        transition: .3s;
+    }
+
+    .kotak2:hover{
+        box-shadow: -7px -7px 5px rgba(0,255,0,0.5),
+        7px 7px 5px rgba(255,0,0,0.5);
+        margin-top: 20px;
+
+    }
+    

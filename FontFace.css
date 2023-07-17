@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "thoriq";
+    src: url(Blox2.ttf) format('truetype');
+}
+
+h1{
+    font-size: 150px;
+    font-family: "thoriq";
+    text-align: center;
+    line-height: 350px;
+   
+}

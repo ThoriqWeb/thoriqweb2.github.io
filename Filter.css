@@ -1,0 +1,168 @@
+   
+   
+   
+   
+   
+   
+   /* Filter
+    blur(px)
+    brightness(angka | %)
+    saturate(angka | %)
+    grayscale(angka | %)
+    sepia(angka | %)
+    hue-rotate(deg)
+    invert(angka | %)
+    opacity(angka | %)
+    drop-shadow(sama seperti box shadow)
+    contrast(angka | %)
+
+*/
+body{
+    background-color: bisque;
+}
+@font-face {
+    font-family: "3d";
+    src: url(Blox2.ttf) format(truetype);
+}
+    h1{
+        margin-top: 0px;
+       font-family: "3d";
+       text-align: center;
+       font-size: 200px;
+       
+    }
+    .all{
+        margin-top: -100px;
+    }
+    .foto{
+        width: 700px;
+        height: 500px;
+        background-image: url(bg3.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 150px auto;
+        filter: saturate(2.5);
+        transition: 1s;
+        border-radius: 20px;
+    }
+
+    .foto:hover{
+        filter: none;
+    }
+    .foto2{
+        width: 700px;
+        height: 500px;
+        background-image: url(bg3.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 150px auto;
+        filter: blur(5px) brightness(130%);
+        transition: 1s;
+        border-radius: 20px;
+    }
+    .foto2:hover{
+        filter: blur(0px) brightness(100%);
+    }
+    .foto3{
+        width: 700px;
+        height: 500px;
+        background-image: url(bg3.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 150px auto;
+        filter: grayscale(100%);
+        transition: 1s;
+        border-radius: 20px;
+    
+    }
+    .foto3:hover{
+        filter: none;
+    }
+    .foto4{
+        width: 700px;
+        height: 500px;
+        background-image: url(bg3.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 150px auto;
+        filter: sepia(90%);
+        transition: 1s;
+        border-radius: 20px;
+    }
+    .foto4:hover{
+        filter: none;
+    }
+    .foto5{
+        width: 700px;
+        height: 500px;
+        background-image: url(bg3.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 150px auto;
+        filter: hue-rotate(90deg);
+        transition: 1s;
+        border-radius: 20px;
+    
+    }
+    .foto5:hover{
+        filter: none;
+    }
+    .foto6{
+        width: 700px;
+        height: 500px;
+        background-image: url(bg3.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 150px auto;
+        filter: invert(90%);
+        transition: 1s;
+        border-radius: 20px;
+    
+    }
+    .foto6:hover{
+        filter: none;
+    }
+    .foto7{
+        width: 700px;
+        height: 500px;
+        background-image: url(bg3.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 150px auto;
+        filter: opacity(50%);
+        transition: 1s;
+        border-radius: 20px;
+    
+    }
+    .foto7:hover{
+        filter: none;
+    }
+    .foto8{
+        width: 700px;
+        height: 500px;
+        background-image: url(bg3.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 150px auto;
+        filter: drop-shadow(15px 20px 20px red)
+                drop-shadow(-15px -20px 20px blue);
+        transition: 1s;
+        border-radius: 20px;
+    }
+    .foto8:hover{
+        filter: none;
+    }
+    .foto9{
+        width: 700px;
+        height: 500px;
+        background-image: url(bg3.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 150px auto;
+        filter: contrast(190%);
+        transition: 1s;
+        border-radius: 20px;
+    }
+    .foto9:hover{
+        filter: none;
+    }

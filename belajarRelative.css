@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+.all{
+    margin-left: 550px;
+}
+.satu{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+.dua{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    position: relative;
+    bottom: 50px;
+}
+.tiga{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}

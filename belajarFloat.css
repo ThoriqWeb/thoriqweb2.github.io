@@ -1,0 +1,274 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS STYLE */
+
+
+body{
+    background-color: black;
+}
+.container {
+    margin: auto;
+    margin-top: 100px;
+    width: 960px;
+    height: 2000px;
+    background-color: white;
+    position: relative;
+}
+.header .ribbon{
+    width: 70px;
+    height:90px; 
+    
+
+    background-size: cover;
+    left: 850px;
+    position: absolute;
+    
+}
+
+.header h1{
+    padding: 30px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header ul li{
+    padding-left: 19px;
+}
+.header ul li a{
+    color: red;
+    display: inline-flex;
+    float: left;
+    padding: 13px;
+    
+    padding-top: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero{
+    border-top: 5px solid salmon;
+    border-bottom: 5px solid lightskyblue;
+    margin-top: 48px;
+    width: 960px;
+    height: 350px;
+    background-color: aqua;
+    background-image:url(bg3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -200px;
+}
+
+.judul1{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.subjudul1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding-left: 20px;
+
+}
+
+.paragrafkiri{
+    padding: 20px;
+    width: 600px;
+    height: 1432px;
+   
+    box-sizing: border-box;
+    float: left;
+}
+
+.paragrafkiri p{
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 5px;
+}
+.content .subjudul1 a{
+    color: red;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content .subjudul1 a:hover{
+    color: red;
+    font-size: 20px;
+}
+.paragrafkanan{
+    margin-top: -60px;
+    float: right;
+    width: 300px;
+    height: auto;
+ 
+    padding: 20px;
+    box-sizing: border-box;
+}
+.paragrafkanan h2{
+    color: #666;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.paragrafkanan p{
+    color: #999;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.paragrafkanan img{
+   float: left;
+   padding-right:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ /**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+ .cf {
+     *zoom: 1;
+ }

@@ -1,0 +1,49 @@
+/*
+scale (angka), scaleX (angka), scaleY(angka)
+rotate (deg), rotateX (deg), rotateY (deg)
+skew (deg), skewX (deg), skewY (deg)
+translate (px), translateX (px), translate (px)
+
+scale= merubah ukuran 2x lipat
+rotate= untuk memutar
+skew= untuk menarik objek ke arah vertikal atau horizontal
+translate= untuk menggeser objek ke arah vertikal/horizontal
+*/
+
+.kotak{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 100px auto 0;
+    transition: 1s;
+ 
+ 
+}
+.kotak:hover{
+    transform: scale(1.5, 2);
+}
+
+.kotak2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 100px auto;
+    transition: 1s;
+}
+.kotak2:hover{
+    transform:scale(2) rotate(360deg);
+}
+
+.kotak3{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 100px auto;
+    transition: 1s;
+}
+.kotak3:hover{
+    transform: skewx(40deg) skewY(20deg);
+}
+
+
+
